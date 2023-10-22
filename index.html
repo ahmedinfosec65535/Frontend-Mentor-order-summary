@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Order summary card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body {
+      font-family: sans-serif;
+    }
+    .container {
+      border: 1px solid black;
+      display: flex;
+      justify-content: center;
+      padding: 500px;
+      background-color: hsl(225, 100%, 94%);
+    }
+    .content {
+      border: 1px solid black;
+      border-radius: 10px;
+      padding-bottom: 30px;
+      background-color: white;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="content">
+      <div style="border: 1px solid black; border-radius: 12px; border: none;">
+        <img src="/images/illustration-hero.svg">
+        <h2 style="text-align: center; color: hsl(223, 47%, 23%);">Order Summary</h2>
+        <p style="text-align: center; color: hsl(223, 47%, 23%);">You can now listen the millions of <br>songs, audiobooks and podcasts on <br> any device anywhere you like!</p>
+        <div style="border: 1px solid hsl(225, 100%, 98%); margin-left: 20%; margin-right: 20%; display: flex; flex-direction: row; background-color: hsl(225, 100%, 98%); border-radius: 5px; color:hsl(223, 47%, 23%)">
+           <img src="images/icon-music.svg" alt="">
+           <h3 >Annual Plan<br> 59.99/year</h3>
+           <a href="#" style="display: flex; justify-content: flex-end;">Change</a>
+
+        </div>
+        <div style="display: flex; justify-content: center;">
+          <button style="margin-top: 12px; display: flex; justify-content: center; border: 1px solid black; background-color: hsl(245, 75%, 52%); border-radius: 5px; padding: 13px; width: 80%; color: white; font-weight: bold; border: none;">Proceed to payment</button>
+        </div>
+        <div style="display: flex; justify-content: center;">
+          <button style="margin-top: 12px; display: flex; justify-content: center; border: 1px solid black; background-color: hsl(225, 100%, 98%); border-radius: 5px; padding: 13px; width: 80%; color: hsl(224, 23%, 55%); font-weight: bold; border: none;">Cancel Order</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
